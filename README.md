@@ -1,2 +1,2 @@
 # Presente
-Site simples, mas feito de coração de presente à ela ❤️
+Site simples, mas feito de coração para dar de presente à ela ❤️
