@@ -2,15 +2,26 @@
 <html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Arquvo do Reset-->
+        <link rel="stylesheet" href="css/reset.css">
+
         <link rel="shortcut icon" href="img/heart.png" type="image/x-icon">
-        <link rel="stylesheet" href="css/style.css">
+        
+        <link rel="stylesheet" href="css/css-index.css">
         <title>:)</title>
     </head>
-    <body>
-        <a href="pag2.html">
-            <div class="caixa">
-                <h2>Clique</h2>
-            </div>
-        </a>
+    <body> 	
+        <div class="c-loader"></div>
+
+        <h3>Aguarde...</h3>
+
+        <div id="clique"></div>
+    
+        <script>
+            var tagH3 = window.document.getElementsByTagName('h3')
+            var clique = window.document.getElementById('clique')
+            clique.innerHTML = '<a href="pag2.html">Entrar</a>'
+        </script>
     </body>
 </html>
